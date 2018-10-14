@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px lightgrey;
+}
+
+header{
+    padding: 2rem 2rem;
+    background-color: blanchedalmond;
+}
+
+h1{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.resume{
+    padding: 0rem 6rem;
+}
+
+ul{
+    padding: 2rem 3rem;
+    font-size: 1.3rem;
+}
+
+li{
+    border-width: 2px;
+    border-color: black;
+    padding: 0.5rem;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: darkgrey;
+}
+
+a:visited:hover{
+    color:yellow;
+}
+
+div{
+    background-color:beige;
+}
+
+footer{
+    font-size: 0.75rem;
+    color: darkgrey;
+}
