@@ -11,11 +11,13 @@ nav{
     font-size: 1.5rem;
     font-family: sans-serif;
     text-shadow: 2px 2px 2px lightgrey;
+    background-color: hsla(50, 100%, 50%, 1)
 }
 
 header{
     padding: 2rem 2rem;
-    background-color: blanchedalmond;
+    background-color: hsla(1, 60%, 60%, 1);
+    font-size: 100%;
 }
 
 h1{
@@ -37,9 +39,8 @@ ul{
 }
 
 li{
-    border-width: 2px;
-    border-color: black;
     padding: 0.5rem;
+    background-color: hsla(50, 100%, 90%, 1);
 }
 
 a{
@@ -58,7 +59,7 @@ a:visited:hover{
 }
 
 div{
-    background-color:beige;
+    background-color: hsla(1, 60%, 60%, 1);
 }
 
 footer{
