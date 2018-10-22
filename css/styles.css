@@ -6,27 +6,57 @@
 
 nav{
     display: flex;
-    padding: 1rem 1rem;
-    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    justify-content: space-around;
     font-size: 1.5rem;
     font-family: sans-serif;
     text-shadow: 2px 2px 2px lightgrey;
-    background-color: hsla(50, 100%, 50%, 1)
+    background-color: hsla(50, 100%, 50%, 1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 30px;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.content{
+    padding-top: 40px;
+}
+@media only screen and (max-width: 600px){
+    nav{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #masthead{
+        font-size: 12vw;
+        margin-left: 1rem;
+    }
+    h2{
+        font-size: 4.3vw;
+        margin-left: 1rem;
+    }
+}
+
+#masthead{
+    font-size: 12vw:
+}
+    
+
+#navlist{
+    border: 5px solid hsla(1, 60%, 60%, 1);
+    font-size: 3rem;
 }
 
 header{
     padding: 2rem 2rem;
     background-color: hsla(1, 60%, 60%, 1);
-    font-size: 100%;
-}
-
-h1{
-    font-size: 3rem;
-    text-decoration: underline;
-}
-
-h2{
-    font-size: 2rem;
+    background-color: hsla(1, 60%, 60%, 1);
+    border-bottom: 5px solid hsla(50, 100%, 50%, 1);
 }
 
 .resume{
@@ -61,8 +91,22 @@ a:visited:hover{
 div{
     background-color: hsla(1, 60%, 60%, 1);
 }
+#bigimg{
+    padding:1rem;
+    width: 500px;
+    border: 5px solid hsla(50, 100%, 50%, 1);
+    margin: 4rem;
+}
+p{
+    padding: 15rem;
+}
 
 footer{
     font-size: 0.75rem;
     color: darkgrey;
+    background-color: hsla(50, 100%, 50%, 1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 16px;
 }
