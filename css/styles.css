@@ -30,23 +30,14 @@ nav{
         font-size: 1.2rem;
     }
 }
-
-@media only screen and (max-width: 1200px) {
-    #masthead{
-        font-size: 12vw;
-        margin-left: 1rem;
-    }
-    h2{
-        font-size: 4.3vw;
-        margin-left: 1rem;
-    }
-}
-
 #masthead{
-    font-size: 12vw:
+    font-size: 12vw;
+    margin-left: 1rem;
 }
-    
-
+h2{
+    font-size: 4.3vw;
+    margin-left: 1rem;
+}
 #navlist{
     border: 5px solid hsla(1, 60%, 60%, 1);
     font-size: 3rem;
@@ -54,8 +45,7 @@ nav{
 
 header{
     padding: 2rem 2rem;
-    background-color: hsla(1, 60%, 60%, 1);
-    background-color: hsla(1, 60%, 60%, 1);
+    background-color: hsla(14, 78%, 93%, 0);
     border-bottom: 5px solid hsla(50, 100%, 50%, 1);
 }
 
@@ -64,13 +54,14 @@ header{
 }
 
 ul{
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
     font-size: 1.3rem;
+    border: 5px solid hsla(50, 100%, 50%, 1);
 }
 
 li{
     padding: 0.5rem;
-    background-color: hsla(50, 100%, 90%, 1);
+    background-color: hsla(204, 87%, 75%, 1);
 }
 
 a{
@@ -81,7 +72,7 @@ a:hover{
     color: yellow;
 }
 a:visited{
-    color: darkgrey;
+    color: hsla(1, 1%, 25%, 1);
 }
 
 a:visited:hover{
@@ -98,7 +89,8 @@ div{
     margin: 4rem;
 }
 p{
-    padding: 15rem;
+    margin: 15rem;
+    border: 5px solid hsla(50, 100%, 50%, 1);
 }
 
 footer{
