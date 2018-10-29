@@ -56,12 +56,12 @@ header{
 ul{
     padding: 1rem 2rem;
     font-size: 1.3rem;
-    border: 5px solid hsla(50, 100%, 50%, 1);
 }
 
 li{
     padding: 0.5rem;
     background-color: hsla(204, 87%, 75%, 1);
+    border: 5px solid hsla(50, 100%, 50%, 1);
 }
 
 a{
