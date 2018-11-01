@@ -3,7 +3,6 @@
     padding:0;
     font-family: sans-serif;
 }
-
 nav{
     display: flex;
     padding: 1rem 0.5rem;
@@ -95,8 +94,9 @@ div{
     margin: 4rem;
 }
 p{
-    margin: 15rem;
+    margin: 10rem;
     border: 5px solid hsla(50, 100%, 50%, 1);
+    font-size: 2rem;
 }
 
 footer{
@@ -107,4 +107,36 @@ footer{
     bottom: 0;
     width: 100%;
     height: 16px;
+}
+@Media only screen and (max-width: 500px){
+    
+}
+@Media Only screen and (min-width: 500px) and (max-width: 1500px) {
+    .box1{
+        display: inline-block;
+    }
+    .box2{
+        display: inline-block;
+    }
+    .box3{
+        display: inline-block;
+    }
+    .box4{
+        display: inline-block;
+    }
+    .box5{
+        display: inline-block;
+    }
+    .box6{
+        display: inline-block;
+    }
+    .box7{
+        display: inline-block;
+    }
+    .box8{
+        display: inline-block;
+    }
+    .box9{
+        display: inline-block;
+    }
 }
