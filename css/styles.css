@@ -25,13 +25,14 @@ nav{
     height: 30px;
     float: left;
 }
+.listHeader{
+    text-align: center ;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 0.6rem;
+}
 .content{
     padding-top: 40px;
-}
-@media only screen and (max-width: 600px){
-    nav{
-        font-size: 1.2rem;
-    }
 }
 #masthead{
     font-size: 12vw;
@@ -115,11 +116,12 @@ footer{
     width: 100%;
     height: 16px;
 }
-@Media only screen and (max-width: 600px){
-    p{ 
-    font-size: 1.2rem;
+@media only screen and (max-width: 600px){
+    nav,p{
+        font-size: 1.2rem;
     }
 }
+
 @Media Only screen and (min-width: 600px) and (max-width: 1500px) {
    
 }
