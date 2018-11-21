@@ -3,6 +3,10 @@
     padding:0;
     font-family: sans-serif;
 }
+html{
+    
+    background-color: hsla(1, 60%, 60%, 1);
+}
 nav{
     display: flex;
     padding: 1rem 0.5rem;
@@ -69,7 +73,9 @@ li{
     box-shadow: 0px 4px 10px black;
     margin: 1rem;
 }
-
+li>a{
+    text-align: center;
+}
 a{
     color: black;
 }
@@ -94,9 +100,15 @@ div{
     margin: 4rem;
 }
 p{
-    margin: 10rem;
+    margin: 1rem;
+    padding: 1rem;
     border: 5px solid hsla(50, 100%, 50%, 1);
+    background-color: hsla(204, 87%, 75%, 1);
     font-size: 2rem;
+    box-shadow: 0px 0px 10px black;
+}
+.text{
+    margin-bottom: 5rem;
 }
 
 footer{
@@ -112,31 +124,5 @@ footer{
     
 }
 @Media Only screen and (min-width: 500px) and (max-width: 1500px) {
-    .box1{
-        display: inline-block;
-    }
-    .box2{
-        display: inline-block;
-    }
-    .box3{
-        display: inline-block;
-    }
-    .box4{
-        display: inline-block;
-    }
-    .box5{
-        display: inline-block;
-    }
-    .box6{
-        display: inline-block;
-    }
-    .box7{
-        display: inline-block;
-    }
-    .box8{
-        display: inline-block;
-    }
-    .box9{
-        display: inline-block;
-    }
+   
 }
