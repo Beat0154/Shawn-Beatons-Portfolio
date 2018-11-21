@@ -72,7 +72,10 @@ li{
     border: 5px solid hsla(50, 100%, 50%, 1);
     box-shadow: 0px 4px 10px black;
     margin: 1rem;
-    text-align:center;
+    text-align: center;
+}
+li:nth-child(odd){
+    background-color: hsla(204, 87%, 50%, 1);
 }
 a{
     color: black;
@@ -113,7 +116,9 @@ footer{
     height: 16px;
 }
 @Media only screen and (max-width: 600px){
-    p{ font-size: 1.2rem}
+    p{ 
+    font-size: 1.2rem;
+    }
 }
 @Media Only screen and (min-width: 600px) and (max-width: 1500px) {
    
