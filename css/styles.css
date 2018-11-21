@@ -72,9 +72,7 @@ li{
     border: 5px solid hsla(50, 100%, 50%, 1);
     box-shadow: 0px 4px 10px black;
     margin: 1rem;
-}
-li>a{
-    text-align: center;
+    text-align:center;
 }
 a{
     color: black;
@@ -92,12 +90,6 @@ a:visited:hover{
 }
 div{
     background-color: hsla(1, 60%, 60%, 1);
-}
-#bigimg{
-    padding:1rem;
-    width: 500px;
-    border: 5px solid hsla(50, 100%, 50%, 1);
-    margin: 4rem;
 }
 p{
     margin: 1rem;
@@ -120,9 +112,9 @@ footer{
     width: 100%;
     height: 16px;
 }
-@Media only screen and (max-width: 500px){
-    
+@Media only screen and (max-width: 600px){
+    p{ font-size: 1.2rem}
 }
-@Media Only screen and (min-width: 500px) and (max-width: 1500px) {
+@Media Only screen and (min-width: 600px) and (max-width: 1500px) {
    
 }
