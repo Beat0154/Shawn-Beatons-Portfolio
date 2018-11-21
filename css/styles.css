@@ -53,7 +53,7 @@ a:hover{
 
 header{
     padding: 2rem 2rem;
-    background-color: hsla(14, 78%, 93%, 0);
+    background-image: linear-gradient(hsla(204, 87%, 50%, 1), hsla(50, 100%, 50%, 1) , hsla(1, 60%, 60%, 1));
     border-bottom: 5px solid hsla(50, 100%, 50%, 1);
 }
 
