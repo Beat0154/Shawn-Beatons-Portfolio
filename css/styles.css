@@ -64,7 +64,7 @@ header{
 ul{
     padding: 0rem 2rem 1rem ;
     font-size: 1.3rem;
-    
+    list-style-type: none;
 }
 
 li{
