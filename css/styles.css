@@ -76,7 +76,6 @@ header{
     background-image: linear-gradient(hsla(204, 87%, 50%, 1), hsla(50, 100%, 50%, 1) , hsla(1, 60%, 60%, 1));
     border-bottom: 5px solid hsla(50, 100%, 50%, 1);
 }
-
 .resume{
     padding: 0rem 6rem;
 }
@@ -88,7 +87,6 @@ ul{
     font-size: 1.3rem;
     list-style-type: none;
 }
-
 li{
     padding: 0.5rem;
     background-color: hsla(204, 87%, 75%, 1);
@@ -100,28 +98,23 @@ li{
 li:nth-child(odd){
     background-color: hsla(204, 87%, 50%, 1);
 }
-
 li:nth-child(even):hover{
     transition: transform 300ms;
-    transform: translateX(2rem)
-    
+    transform: translateX(2rem) 
 }
 li:nth-child(odd):hover{
     transition: transform 300ms;
-    transform: translateX(-2rem)
-    
+    transform: translateX(-2rem)  
 }
 a{
     color: black;
 }
-
 a:hover{
     color: yellow;
 }
 a:visited{
     color: hsla(1, 1%, 25%, 1);
 }
-
 a:visited:hover{
     color:yellow;
 }
@@ -139,7 +132,6 @@ p{
 .text{
     margin-bottom: 5rem;
 }
-
 footer{
     font-size: 0.75rem;
     color: darkgrey;
