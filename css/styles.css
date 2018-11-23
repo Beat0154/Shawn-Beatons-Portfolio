@@ -57,6 +57,12 @@ nav{
 #masthead{
     font-size: 12vw;
     margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#sechead{
+    display: flex;
+    justify-content: center;
 }
 h2{
     font-size: 4.3vw;
@@ -95,16 +101,24 @@ li{
     margin: 1rem;
     text-align: center;
 }
+li:nth-child(even){
+    transition: transform 300ms;
+    transition-delay: 500ms;
+}
 li:nth-child(odd){
     background-color: hsla(204, 87%, 50%, 1);
+    transition: transform 300ms;
+    transition-delay: 500ms;
 }
 li:nth-child(even):hover{
-    transition: transform 300ms;
-    transform: translateX(2rem) 
+    transition: transform 500ms;
+    transform: translateX(2rem); 
+    transition-timing-function: cubic-bezier(.69,.01,.42,1);
 }
 li:nth-child(odd):hover{
-    transition: transform 300ms;
-    transform: translateX(-2rem)  
+    transition: transform 500ms;
+    transform: translateX(-2rem);  
+    transition-timing-function: cubic-bezier(.69,.01,.42,1);
 }
 a{
     color: black;
