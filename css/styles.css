@@ -10,7 +10,7 @@ nav{
     display: flex;
     padding: 1rem 0.5rem;
     justify-content: space-around;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: sans-serif;
     text-shadow: 2px 2px 2px lightgrey;
     background-color: hsla(50, 100%, 50%, 1);
@@ -19,6 +19,28 @@ nav{
     top: 0;
     height: 30px;
     z-index: 3;
+}
+nav>a{
+    background-color: hsla(1, 60%, 60%, 1);
+    padding: 0rem 2rem;
+    border: 3px solid hsla(204, 87%, 50%, 1);
+    border-radius: 16px;
+    text-decoration: none;
+}
+nav>a:hover{
+    background-color: hsla(204, 87%, 50%, 1);
+}
+button{
+    padding: 0rem 2rem;
+    border: 3px solid hsla(204, 87%, 50%, 1);
+    border-radius: 16px;
+    background-color: hsla(1, 60%, 60%, 1);
+    font-size: 1.1rem;
+    text-shadow: 2px 2px 2px lightgrey;
+}
+button:hover{
+    background-color: hsla(204, 87%, 50%, 1);
+    color: yellow;
 }
 .image{
     width: 30px;
@@ -53,14 +75,6 @@ nav{
 h2{
     font-size: 4.3vw;
     margin-left: 1rem;
-}
-#navlink{
-    border: 5px solid hsla(1, 60%, 60%, 1);
-    font-size: 3rem;
-}
-a:hover{
-    transition: transform 300ms;
-    transform: scale(1.3,1.3);
 }
 
 header{
@@ -167,10 +181,17 @@ footer{
     height: 16px;
     z-index: 3;
 }
-@media only screen and (max-width: 600px){
-    nav,p{
-        font-size: 1.2rem;
+@media only screen and (max-width: 800px){
+    nav,p,button{
+        font-size: 0.7rem;
     }
+    nav>a,button{
+        padding:0rem 0.5rem;
+    }
+    nav>a{
+        padding-top: 0.2rem;
+    }
+    
 }
 
 @Media Only screen and (min-width: 600px) and (max-width: 1500px) {
