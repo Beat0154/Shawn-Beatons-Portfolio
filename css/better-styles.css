@@ -132,7 +132,7 @@ li:nth-child(even){
     transition-timing-function: cubic-bezier(0.5,0,0.5,1);
 }
 li:nth-child(odd){
-    background-color: hsla(1, 0%, 50%, 1);
+    background-color: hsla(1, 0%,55%, 1);
     transition: transform 300ms;
     transition-delay: 500ms;
     transition-timing-function: cubic-bezier(0.5,0,0.5,1);
