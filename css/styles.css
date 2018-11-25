@@ -5,7 +5,7 @@
 }
 html{
     
-    background-color: hsla(1, 60%, 60%, 1);
+    background-image:linear-gradient(hsla(1, 60%, 60%, 1),hsla(1, 60%, 60%, 1), hsla(50, 100%, 50%, 1));
 }
 nav{
     display: flex;
@@ -24,26 +24,12 @@ nav{
 .image{
     width: 30px;
     height: 30px;
-    float: left;
 }
 .imagediv{
     position: relative;
-    display: flex;
-    justify-content: center;
-}
-.img{
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    border: 5px solid hsla(50, 100%, 50%, 1);
-    box-shadow: 0px 4px 10px black;
-    margin: 1rem;
-}
-.image1{
-    z-index: 1;
-}
-.image2{
-    z-index: auto;
+    float: left;
+    width: 4vw;
+    height: auto;
 }
 .listHeader{
     text-align: center ;
@@ -55,14 +41,15 @@ nav{
     padding-top: 40px;
 }
 #masthead{
-    font-size: 12vw;
+    font-size: 8vw;
     margin-left: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 #sechead{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    font-size: 3vw;
 }
 h2{
     font-size: 4.3vw;
@@ -81,13 +68,38 @@ header{
     padding: 2rem 2rem;
     background-image: linear-gradient(hsla(204, 87%, 50%, 1), hsla(50, 100%, 50%, 1) , hsla(1, 60%, 60%, 1));
     border-bottom: 5px solid hsla(50, 100%, 50%, 1);
+    height: 28vw
+}
+.header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.headtext{
+    float: left;
+    width: 70%;
+    margin: 9vw 0.2rem;
+}
+.img{
+    height: 25vw;
+    width: auto;
+    position: absolute;
+    border: 5px solid hsla(50, 100%, 50%, 1);
+    box-shadow: 0px 4px 10px black;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.image1{
+    z-index: 1;
+}
+.image2{
+    z-index: auto;
 }
 .resume{
     padding: 0rem 6rem;
 }
-.mad9013{
-    margin-top: 28rem;
-}
+
 ul{
     padding: 0rem 2rem 1rem ;
     font-size: 1.3rem;
@@ -134,11 +146,9 @@ a:visited{
 a:visited:hover{
     color:yellow;
 }
-div{
-    background-color: hsla(1, 60%, 60%, 1);
-}
+
 p{
-    margin: 1rem;
+    margin: 1rem 3rem;
     padding: 1rem;
     border: 5px solid hsla(50, 100%, 50%, 1);
     background-color: hsla(204, 87%, 75%, 1);
@@ -161,13 +171,6 @@ footer{
 @media only screen and (max-width: 600px){
     nav,p{
         font-size: 1.2rem;
-    }
-    .img{
-        width: 200px;
-        height: 200px;
-    }
-    .mad9013{
-        margin-top: 15rem;
     }
 }
 
