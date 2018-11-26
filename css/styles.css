@@ -81,7 +81,8 @@ header{
     padding: 2rem 2rem;
     background-image: linear-gradient(hsla(204, 87%, 50%, 1), hsla(50, 100%, 50%, 1) , hsla(1, 60%, 60%, 1));
     border-bottom: 5px solid hsla(50, 100%, 50%, 1);
-    height: 28vw
+    height: 28vw;
+    width: 100%;
 }
 .header:after{
     content: "";
