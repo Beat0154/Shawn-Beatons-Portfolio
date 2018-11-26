@@ -191,9 +191,15 @@ footer{
     nav>a{
         padding-top: 0.2rem;
     }
-    
 }
-
-@Media Only screen and (min-width: 600px) and (max-width: 1500px) {
-   
+@media only screen and (min-width:1000px){
+    .lists{
+        display: flex;
+        align-content: space-between;
+        width: 100%;
+    }
+    ul{
+        width:45vw;
+        
+    }
 }
